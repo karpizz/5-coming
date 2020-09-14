@@ -21,7 +21,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .topcont img{
-    margin: 50px;
+    margin: 30px 0;
 }
 
 .top h1 {
@@ -33,6 +33,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 50%;
     font-size: 12px;
     display: inline-block;
+    color: grey;
 }
 
 .top li {
@@ -44,11 +45,44 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 30px 0 0 0;
     font-weight: bold;
     font-size: 34px;
+    word-spacing: 30px;
 }
 
 .po_skaiciais {
     font-size: 12px;
     margin: 0 0 30px 0;
+    word-spacing: 40px;
+}
+
+#emailsub {
+    border: none;
+    border-bottom: palegoldenrod 1px solid;
+    width: 50%;
+    background: transparent;
+    line-height: 30px;
+}
+
+#emailsub::placeholder {
+    color: white;
+    font-size: 10px;
+}
+
+#sub {
+    margin: 15px 0;
+    background-color: #EA1E63;
+    padding: 8px 25px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.topcont > a > .gotop {
+    width: 15px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 0 0 30px 0;
+    background: transparent;
 }
 
 .contentcon {
@@ -62,26 +96,118 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline-block;
     float: left;
     text-align: left;
+    padding-right: 40px;
 }
 
-.border1 {
-    width: 100px;
-    height: 5px;
-    border-bottom: powderblue 5px solid;
+.left-col h1{
+    margin: 40px 0 10px 0;
+    font-size: 22px;
+}
+
+.left-col p {
+    margin: 10px 0 25px 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.UIline {
+    border-bottom: lightskyblue 5px solid;
+    width: 90%;
+}
+
+.webline {
+    border-bottom: lightskyblue 5px solid;
+    width: 80%;
+}
+
+.devline {
+    border-bottom: lightskyblue 5px solid;
+    width: 70%;
 }
 
 .right-col {
     width: 50%;
     display: inline-block;
     text-align: left;
+    padding-left: 40px;
+}
+
+.right-col h1{
+    margin: 40px 0 10px 0;
+    font-size: 22px;
+}
+
+.right-col p {
+    margin: 10px 0 25px 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.right-col > form > input {
+    border: none;
+    border-bottom: palegoldenrod 1px solid;
+    line-height: 40px;
+}
+
+.right-col > form > #right-col-name {
+    margin-right: 20px;
+}
+
+#right-col-message {
+    width: 80%;
+}
+
+.right-col > form > #right-col-button {
+    margin-bottom: 100px;
+    margin-top: 30px;
+    margin-right: 70px;
+    float: right;
+    background-color: #EA1E63;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    line-height: 10px;
+}
+
+.content::after {
+    width: 30px;
+    height: 20px;
+    background-color: violet;
+    border: 1px solid white;
 }
 
 .bottom {
     background-color: #03A9F3;
     text-align: center;
+    padding-bottom: 50px;
+}
+
+.social {
+    border-bottom: 1px solid white;
 }
 
 .social a{
     color: white;
     text-decoration: none;
+    margin: 20px 0;
+    letter-spacing: 20px;
+    font-size: 12px;
+}
+
+.bottom-logo {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.bottom-logo > img {
+    width: 26px;
+    vertical-align: baseline;
+    margin-right: 5px;
+}
+
+.bottom p {
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
 }

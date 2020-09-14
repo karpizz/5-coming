@@ -30,10 +30,10 @@
                 <li>Second</li>
             </div>
             <form action="">
-                <input type="text" placeholder="type your email"><br>
+                <input type="text" id="emailsub" placeholder="Type your email"><br>
                 <input type="button" value="Subscribe now" name="subscribe" id="sub">
             </form>
-            <a href="#"><button></button></a>
+            <a href="#"><button class="gotop"></button></a>
         </div>
     </div>
     <div class="content">
@@ -45,12 +45,9 @@
                     qui doloremque
                     sequi ipsa ipsum iste suscipit dolore, eveniet necessitatibus provident?</p>
                 <div class="diagrama">
-                    <p>UI design</p>
-                    <span class="border1"></span>
-                    <p>Web design</p>
-                    <span class="border2"></span>
-                    <p>Web development</p>
-                    <span class="border2"></span>
+                    <p class="UIline">UI design</p>
+                    <p class="webline">Web design</p>
+                    <p class="devline">Web development</p>
                 </div>
             </div>
             <div class="right-col">
@@ -59,13 +56,10 @@
                     accusamus debitis
                     sunt?</p>
                 <form action="#">
-                    <label for="name">Name</label>
-                    <input type="text">
-                    <label for="email">Email</label>
-                    <input type="email"><br>
-                    <label for="message">Message</label>
-                    <input type="text"> <br><br>
-                    <input type="button" value="Send Message">
+                    <input type="text" id="right-col-name" placeholder="Name">
+                    <input type="email" placeholder="Email"><br><br>
+                    <input type="text" id="right-col-message" placeholder="Message"> <br><br>
+                    <input type="button" id="right-col-button" value="Send Message">
                 </form>
             </div>
         </div>
@@ -81,9 +75,10 @@
             <a href="#" class="fa fa-instagram"></a>
             <a href="#" class="fa fa-pinterest"></a>
         </div>
-        <div><img src="./logo.png" alt="">Matrox</div>
-        <p>Copyright 2016 Matrox</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, ad atque? Officia unde commodi possimus!
+        <div class="bottom-logo"><img src="./logo.png" alt="">Matrox</div>
+        <p>Copyright 2016 <a href="#">Matrox</a> | All rights reserved | Designed by <a href="#">Threydnetheme</a> </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, ad atque? Officia unde commodi
+            possimus!
         </p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, voluptate!</p>
     </div>
