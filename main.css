@@ -70,7 +70,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 #sub {
     margin: 15px 0;
     background-color: #EA1E63;
-    padding: 8px 25px;
+    padding: 8px 20px;
     color: white;
     border: none;
     border-radius: 3px;
@@ -105,24 +105,73 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .left-col p {
-    margin: 10px 0 25px 0;
+    margin: 20px 0 10px 0;
     font-size: 12px;
     line-height: 20px;
 }
 
-.UIline {
-    border-bottom: lightskyblue 5px solid;
+.loading-bar span {
+    float: right;
+}
+
+.progress-bar-1 {
+    width: 100%;
+    height: 6px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    position: relative;
+}
+
+.progress-bar-1::before {
+    content: '';
+    display: flex;
+    align-items: center;
+    position: absolute;
     width: 90%;
+    height: 6px;
+    min-width: 50px;
+    max-width: 100%;
+    background-color: rgb(98, 195, 255);
 }
 
-.webline {
-    border-bottom: lightskyblue 5px solid;
-    width: 80%;
+.progress-bar-2 {
+    width: 100%;
+    height: 6px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    position: relative;
 }
 
-.devline {
-    border-bottom: lightskyblue 5px solid;
-    width: 70%;
+.progress-bar-2::before {
+    content: '';
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 86%;
+    height: 6px;
+    min-width: 50px;
+    max-width: 100%;
+    background-color: rgb(98, 195, 255);
+}
+
+.progress-bar-3 {
+    width: 100%;
+    height: 6px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    position: relative;
+}
+
+.progress-bar-3::before {
+    content: '';
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 86%;
+    height: 6px;
+    min-width: 50px;
+    max-width: 100%;
+    background-color: rgb(98, 195, 255);
 }
 
 .right-col {
@@ -155,15 +204,16 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 #right-col-message {
     width: 80%;
+    line-height: 90px;
 }
 
 .right-col > form > #right-col-button {
-    margin-bottom: 100px;
-    margin-top: 30px;
+    margin-bottom: 75px;
+    margin-top: 20px;
     margin-right: 70px;
     float: right;
     background-color: #EA1E63;
-    padding: 8px 15px;
+    padding: 12px 15px;
     color: white;
     border: none;
     border-radius: 3px;
@@ -197,7 +247,15 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: white;
     font-size: 16px;
-    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-cont {
+    width: 800px;
+    display: inline-block;
+    margin-left: calc ((100% - 800px) / 2);
 }
 
 .bottom {
